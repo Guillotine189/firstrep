@@ -1,5 +1,16 @@
-new file new  thigs to come
+import requests
+import json
 
-commit to only this file 
+# my new cord https://discord.com/api/v9/channels/1003653058997256205/messages
 
-wth happened
+payload = {
+	'content': ""
+}
+
+header = {
+		"Authorization": ''
+}
+
+r = requests.post("", json=payload, headers=header)
+
+## to send message old verison
